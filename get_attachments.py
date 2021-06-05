@@ -1,6 +1,7 @@
 """
 To extract attachments embeded in a PDF file
 Usage: $ python get_attachment.py YOURFILE.PDF
+return: save whatever attachments are embeded in pdf file
 
 Thanks to: https://gist.github.com/kevinl95/29a9e18d474eb6e23372074deff2df38#file-extract_pdf_attachments-py
 """
