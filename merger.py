@@ -1,3 +1,13 @@
+"""
+Grab all PDF files in root directory and
+merge them into  a single PDF file.
+If thier order maters, make sure to rename them to keep prefered order
+
+Usage: $ python merger.py
+return: creats a pdf file named "merged.pdf"
+"""
+
+
 from PyPDF2 import PdfFileMerger
 import glob
 from pathlib import Path
